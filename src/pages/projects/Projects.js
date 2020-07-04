@@ -9,7 +9,7 @@ import './Projects.css';
 
 const projectsHeader = {
     title: "Projects",
-    description: "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    description: "My projects makes use of vast variety of latest technology tools. My best experience is to create small projects and deploy them to web applications using cloud infrastructure.",
     avatar_image_path: "projects_image.svg"
 }
 
@@ -47,7 +47,7 @@ class Projects extends Component {
 						<Button
 							text={"More Projects"}
 							className="project-button"
-							href="https://github.com/ashutosh1919"
+							//href="https://github.com/ashutosh1919"
 							newTab={true}
 						/>
 						<Footer />

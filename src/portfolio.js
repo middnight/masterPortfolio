@@ -9,58 +9,51 @@ const theme = {
 const greeting = {
 	/* Your Summary And Greeting Section */
 	//title: "Hi all 👋 I'm Saad",
-	title: "Ashutosh Hathidara",
-	nickname: "layman_brother",
+	title: "Shivam Giri",
+	nickname: "kanpuriya_monk",
 	// subTitle:
 	//   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
 	subTitle:
-		"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+		"A passionate software developer having experience of building enterprise application with Spring / Java, who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
 	resumeLink:
-		"https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf"
+		"https://drive.google.com/file/d/1aQ_TF8kCI88Dyh2vxBm_FY_e1erBTG98/view?usp=sharing"
 };
 
 const socialMediaLinks = {
 	/* Your Social Media Link */
-	github: "https://github.com/ashutosh1919",
-	linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-	gmail: "ashutoshhathidara98@gmail.com",
-	gitlab: "https://gitlab.com/ashutoshhathidara98",
-	facebook: "https://www.facebook.com/laymanbrother.19/",
-	twitter: "https://twitter.com/ashutosh_1919",
-	instagram: "https://www.instagram.com/layman_brother/"
+	github: "https://github.com/middnight",
+	linkedin: "https://www.linkedin.com/in/shivam-giri/",
+	gmail: "shivamgiri420@gmail.com",
+	//gitlab: "https://gitlab.com/ashutoshhathidara98",
+	//facebook: "https://www.facebook.com/laymanbrother.19/",
+	//twitter: "https://twitter.com/ashutosh_1919",
+	//instagram: "https://www.instagram.com/layman_brother/"
 };
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
-      imagePath: "data_science.svg",
+      title: "Software Development Engineer @TCS",
+      imagePath: "developerActivity.svg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis"
+        "⚡ Developing highly scalable production ready codes for various business requirements",
+        "⚡ Experience of working with Enterprise resource planning softwares",
+        "⚡ Fixes defects as well as creates interesting new features."
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
           style: {
             backgroundColor: "transparent"
           }
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "C++",
+          fontAwesomeClassname: "logos:c-plusplus",
           style: {
             backgroundColor: "white",
             color: "#D00000"
-          }
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent"
           }
         },
         {
@@ -70,98 +63,112 @@ const skills = {
             backgroundColor: "transparent",
             color: "#3776AB"
           }
-        }
-      ]
-    },
-    {
-      title: "Full Stack Development",
-      imagePath: "fullstack.svg",
-      skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
-      ],
-      softwareSkills: [
+        },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Git",
+          fontAwesomeClassname: "cib-git",
           style: {
-            color: "#E34F26"
+            backgroundColor: "transparent"
           }
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "XML",
+          fontAwesomeClassname: "mdi-light:xml",
           style: {
-            color: "#1572B6"
-          }
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699"
-          }
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E"
-          }
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB"
-          }
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933"
-          }
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837"
-          }
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB"
-          }
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399"
-          }
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B"
+            backgroundColor: "transparent"
           }
         }
       ]
     },
+    // {
+    //   title: "Full Stack Development",
+    //   imagePath: "fullstack.svg",
+    //   skills: [
+    //     "⚡ Building resposive website front end using React-Redux",
+    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+    //     "⚡ Creating application backend in Node, Express & Flask"
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "HTML5",
+    //       fontAwesomeClassname: "simple-icons:html5",
+    //       style: {
+    //         color: "#E34F26"
+    //       }
+    //     },
+    //     {
+    //       skillName: "CSS3",
+    //       fontAwesomeClassname: "fa-css3",
+    //       style: {
+    //         color: "#1572B6"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Sass",
+    //       fontAwesomeClassname: "simple-icons:sass",
+    //       style: {
+    //         color: "#CC6699"
+    //       }
+    //     },
+    //     {
+    //       skillName: "JavaScript",
+    //       fontAwesomeClassname: "simple-icons:javascript",
+    //       style: {
+    //         backgroundColor: "#000000",
+    //         color: "#F7DF1E"
+    //       }
+    //     },
+    //     {
+    //       skillName: "ReactJS",
+    //       fontAwesomeClassname: "simple-icons:react",
+    //       style: {
+    //         color: "#61DAFB"
+    //       }
+    //     },
+    //     {
+    //       skillName: "NodeJS",
+    //       fontAwesomeClassname: "simple-icons:node-dot-js",
+    //       style: {
+    //         color: "#339933"
+    //       }
+    //     },
+    //     {
+    //       skillName: "NPM",
+    //       fontAwesomeClassname: "simple-icons:npm",
+    //       style: {
+    //         color: "#CB3837"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Yarn",
+    //       fontAwesomeClassname: "simple-icons:yarn",
+    //       style: {
+    //         color: "#2C8EBB"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Gatsby",
+    //       fontAwesomeClassname: "simple-icons:gatsby",
+    //       style: {
+    //         color: "#663399"
+    //       }
+    //     },
+    //     {
+    //       skillName: "Flutter",
+    //       fontAwesomeClassname: "simple-icons:flutter",
+    //       style: {
+    //         color: "#02569B"
+    //       }
+    //     }
+    //   ]
+    // },
     {
       title: "Cloud Infra-Architecture",
       imagePath: "cloud_infrastructure.svg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Deploying K8 clusters and docker containers over AWS / AZURE platforms",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
       ],
       softwareSkills: [
@@ -184,13 +191,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:microsoftazure",
           style: {
             color: "#0089D6"
-          }
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28"
           }
         },
         {
@@ -222,7 +222,7 @@ const skills = {
           }
         }
       ]
-    },
+    }  /*,
     {
       title: "UI/UX Design",
       imagePath: "ui_ux_design.svg",
@@ -261,7 +261,7 @@ const skills = {
           }
         }
       ]
-    }
+    }*/
   ]
 };
 
@@ -273,7 +273,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866"
       },
-      profileLink: "https://www.hackerrank.com/layman_brother"
+      profileLink: "https://www.hackerrank.com/shivamgiri420"
     },
     {
       siteName: "Codechef",
@@ -281,15 +281,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638"
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919"
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB"
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother"
+      profileLink: ""
     },
     {
       siteName: "Hackerearth",
@@ -300,12 +292,12 @@ const competitiveSites = {
       profileLink: "https://www.hackerearth.com/@ashutosh391"
     },
     {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "Leetcode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#20BEFF"
       },
-      profileLink: "https://www.kaggle.com/laymanbrother"
+      profileLink: "https://leetcode.com/shivam_giri/"
     }
   ]
 }
@@ -313,17 +305,17 @@ const competitiveSites = {
 const degrees = {
   degrees : [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Amity University",
+      subtitle: "B.Tech. in Computer Science & Engineering",
+      logo_path: "Amity.png",
+      alt_name: "Amity University",
+      duration: "2015 - 2019",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics."
       ],
-      website_link: "http://iiitk.ac.in"
+      website_link: "https://www.amity.edu/"
     }
   ]
 }
@@ -331,29 +323,29 @@ const degrees = {
 const certifications = {
 	certifications: [
 		{
-			title: "Machine Learning",
-			subtitle: "- Andrew Ng",
+			title: "Data Structures & Algorithms",
+			subtitle: "- Scaler Academy",
 			logo_path: "stanford_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-			alt_name: "Stanford University",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+			alt_name: "Scaler Academy",
 			color_code: "#8C151599"
 		},
 		{
-			title: "Deep Learning",
-			subtitle: "- Andrew Ng",
+			title: "High Level Design",
+			subtitle: "- Scaler Academy",
 			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-			alt_name: "deeplearning.ai",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+			alt_name: "Scaler Academy",
 			color_code: "#00000099"
 		},
 		{
 			title: "ML on GCP",
 			subtitle: "- GCP Training",
 			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
 			alt_name: "Google",
 			color_code: "#0C9D5899"
 		},
@@ -361,8 +353,8 @@ const certifications = {
 			title: "Data Science",
 			subtitle: "- Alex Aklson",
 			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
 			alt_name: "IBM",
 			color_code: "#1F70C199"
 		},
@@ -370,8 +362,8 @@ const certifications = {
 			title: "Big Data",
 			subtitle: "- Kim Akers",
 			logo_path: "microsoft_logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+			//certificate_link:
+			//	"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
 			alt_name: "Microsoft",
 			color_code: "#D83B0199"
 		},
@@ -379,8 +371,8 @@ const certifications = {
 			title: "Advanced Data Science",
 			subtitle: "- Romeo Kienzler",
 			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
 			alt_name: "IBM",
 			color_code: "#1F70C199"
 		},
@@ -388,8 +380,8 @@ const certifications = {
 			title: "Advanced ML on GCP",
 			subtitle: "- GCP Training",
 			logo_path: "google_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
 			alt_name: "Google",
 			color_code: "#0C9D5899"
 		},
@@ -397,8 +389,8 @@ const certifications = {
 			title: "DL on Tensorflow",
 			subtitle: "- Laurence Moroney",
 			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
 			alt_name: "deeplearning.ai",
 			color_code: "#00000099"
 		},
@@ -406,8 +398,8 @@ const certifications = {
 			title: "Fullstack Development",
 			subtitle: "- Jogesh Muppala",
 			logo_path: "coursera_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+			//certificate_link:
+			//	"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
 			alt_name: "Coursera",
 			color_code: "#2A73CC"
 		},
@@ -415,8 +407,8 @@ const certifications = {
 			title: "Kuberenetes on GCP",
 			subtitle: "- Qwiklabs",
 			logo_path: "gcp_logo.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+			//certificate_link:
+			//	"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
 			alt_name: "GCP",
 			color_code: "#4285F499"
 		},
@@ -424,8 +416,8 @@ const certifications = {
 			title: "Cryptography",
 			subtitle: "- Saurabh Mukhopadhyay",
 			logo_path: "nptel_logo.png",
-			certificate_link:
-				"https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+			//certificate_link:
+			//	"https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
 			alt_name: "NPTEL",
 			color_code: "#FFBB0099"
 		},
@@ -433,8 +425,8 @@ const certifications = {
 			title: "Cloud Architecture",
 			subtitle: "- Qwiklabs",
 			logo_path: "gcp_logo.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+			//certificate_link:
+			//	"https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
 			alt_name: "GCP",
 			color_code: "#4285F499"
 		}
@@ -572,9 +564,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Want to discuss an idea or just want to say hi my inbox is open for all",
+  number: "+91-7000537824",
+  email_address: "shivamgiri420@gmail.com"
 };
 
 export {

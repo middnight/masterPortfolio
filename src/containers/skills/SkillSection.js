@@ -14,7 +14,7 @@ class SkillSection extends Component {
               <Flip left duration={2000}>
                 <div className="skills-image-div">
                   <img
-                    alt="Ashutosh is Analysing Data"
+                    alt="Shivam is Working"
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img>
                 </div>

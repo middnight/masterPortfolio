@@ -8,9 +8,9 @@ function Header() {
 		<Fade top duration={1000} distance="20px">
 			<div>
 				<header className="header">
-					<NavLink to="/splash" tag={Link} className="logo">
+					<NavLink to="/home" tag={Link} className="logo">
 						<span className="grey-color"> &lt;</span>
-						<span className="logo-name">AshutoshHathidara</span>
+						<span className="logo-name">Shivam Giri</span>
 						<span className="grey-color">/&gt;</span>
 					</NavLink>
 					<input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -54,7 +54,7 @@ function Header() {
 								Projects
 							</NavLink>
 						</li>
-						<li>
+						{/* <li>
 							<NavLink
 								to="/opensource"
 								tag={Link}
@@ -62,7 +62,10 @@ function Header() {
 							>
 								Open Source
 							</NavLink>
-						</li>
+						</li> 
+						add this line to main.js routes to enable opensource
+						<Route path="/opensource" component={Opensource} />
+						*/}
 						<li>
 							<NavLink
 								to="/contact"

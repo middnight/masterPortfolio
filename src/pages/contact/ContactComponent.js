@@ -14,27 +14,27 @@ const blogSection = {
 	title: "Blogs",
 	subtitle:
 		"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-	link: "https://ashutoshhathidara.wordpress.com",
+	//link: "",
 	avatar_image_path: "blogs_image.svg"
 };
 
 const addressSection = {
 	title: "Address",
 	subtitle:
-		"Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+		"Electronic city phase 1, Benagaluru, Karnataka ",
 	avatar_image_path: "address_image.svg",
-	location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76"
+	location_map_link: "https://goo.gl/maps/fcrocjdmnV7Cc4bn8"
 };
 
 const phoneSection = {
     title: "Phone Number",
-    subtitle: "+91 8320758513"
+    subtitle: "+91 7000537824"
 }
 
 const ContactData = {
 	title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development."
+    profile_image_path: "shivam2.png",
+    description: "I am available on some social media platforms. You can message me there. I can help you with Java, C++, Pyhton, Cloud and Opensource Development."
 };
 
 class Contact extends Component {
