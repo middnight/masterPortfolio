@@ -8,9 +8,9 @@ import { Fade } from "react-reveal";
 
 const experience = {
 	title: "Experience",
-	subtitle: "Work, Internship and Volunteership",
+	subtitle: "Work, Volunteership",
 	description:
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		" I have worked with some well established companies mostly as Software Developer. I love organising events and that is why I am also involved with many opensource communities as a representative. I have contributed to many open source projects such as tor, apache in documentation etc.",
 	header_image_path: "experience.svg",
 	sections: [
 		{
@@ -50,10 +50,10 @@ const experience = {
 				// 	color: "#fc1f20"
 				// }
 			]
-		},
-		{
-			title: "Internships",
-			experiences: [
+		}//,
+		//{
+		//	title: "Internships",
+		//	experiences: [
 				// {
 				// 	title: "Data Science Research Intern",
 				// 	company: "Delhivery Pvt. Ltd.",
@@ -77,8 +77,8 @@ const experience = {
 				// 		"This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
 				// 	color: "#0071C5"
 				// }
-			]
-		}
+		//	]
+		//}
 		//,
 		//{
 		//	title: "Volunteerships",
