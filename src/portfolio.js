@@ -16,7 +16,7 @@ const greeting = {
 	subTitle:
 		"A passionate software developer having experience of building enterprise application with Spring / Java, who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
 	resumeLink:
-		"https://drive.google.com/file/d/1aQ_TF8kCI88Dyh2vxBm_FY_e1erBTG98/view?usp=sharing"
+		"https://drive.google.com/file/d/1wZXb2HnhMXT07OuGdg-o5kVzvUzdwlnJ/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -33,7 +33,7 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Software Development Engineer @TCS",
+      title: "SDE1 @ TCS",
       imagePath: "developerActivity.svg",
       skills: [
         "⚡ Developing highly scalable production ready codes for various business requirements",
